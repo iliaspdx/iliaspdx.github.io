@@ -1,0 +1,140 @@
+body {
+  background-color: #282828;
+  margin: 0%;
+}
+
+.nav-bar {
+  background-color: #282828;
+  display: inline-block;
+  margin: 0%;
+  width: 100%;
+  border-bottom: white solid 2px;
+  position: fixed;
+}
+.nav-list {
+  list-style: none;
+  display: block;
+  padding: 0px;
+  margin: 0%;
+  background-color: white;
+}
+
+.list-item {
+  display: block;
+  float: left;
+}
+a:hover {
+  color: gray;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 20px;
+}
+
+#email,
+#github,
+#linkedin {
+  float: right;
+}
+
+.profile-img {
+  border-radius: 50%;
+}
+
+.about-body {
+  color: white;
+  margin-left: 10%;
+  width: 75%;
+  justify-content: center;
+  padding-top: 3%;
+}
+
+.footer {
+  border-top: white 1px solid;
+  color: white;
+  overflow: hidden;
+  position: static;
+  width: 100%;
+  bottom: 0;
+  padding-bottom: 1%;
+  text-align: center;
+}
+
+.resume-section {
+  text-align: center;
+  padding-top: 3%;
+}
+
+.card-link {
+  display: inline;
+}
+.card-link:hover {
+  color: green;
+}
+
+.row {
+  margin-bottom: 5%;
+}
+
+.contact-body {
+  max-width: 500px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 60px;
+  border-radius: 20px;
+  padding: 15px;
+  background-color: white;
+}
+
+.contact-body h2 {
+  text-align: center;
+}
+
+#aboutMe {
+  text-align: center;
+  width: 100%;
+}
+
+.border {
+  border: white solid 1px;
+}
+
+#githublinks {
+  display: inline;
+}
+#githublinks:hover {
+  color: green;
+}
+
+ul {
+  text-align: left;
+}
+
+@media (min-width: 992px) {
+  .about-p {
+    font-size: x-large;
+  }
+
+  .profile-img {
+    width: 400px;
+  }
+
+  #email,
+  #github,
+  #linkedin {
+    float: right;
+    font-size: x-large;
+  }
+}
+
+@media (max-width: 700px) {
+  .about-body {
+    padding-top: 150px;
+  }
+  .profile-img {
+    width: 250px;
+  }
+}
